@@ -2,8 +2,8 @@ import { Component, OnInit, Inject, Renderer, ElementRef, ViewChild, HostListene
 import { Router, NavigationEnd } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 import 'rxjs/add/operator/filter';
-import { DOCUMENT } from '@angular/platform-browser';
-import { LocationStrategy, PlatformLocation, Location } from '@angular/common';
+
+import { LocationStrategy, PlatformLocation, Location, DOCUMENT } from '@angular/common';
 
 var didScroll;
 var lastScrollTop = 0;
